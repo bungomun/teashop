@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>陽明山茗茶</title>
+    <link rel="shortcut icon" href="./img/favicon-20190622121356486.ico" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/coffee.css">
+</head>
+
+<body>
+    <!-- 增加下邊框  邊框厚度在class-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning border-bottom border-danger shadow">
+        <!-- 增加container 就不會導覽列左右太遠 -->
+        <div class="container">
+
+            <a class="navbar-brand" href="./index.html"><img src="./img/palm.png" width="30">陽明山茗茶</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <!-- 縮成手機 -->
+            </button>
+            <!-- 可以折疊的 -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-igloo"></i>首頁 </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="map.html"><i class="fab fa-avianex"></i>周邊環境</a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="shop.html"><i class="fas fa-apple-alt"></i>茶葉風味館</a>
+                    </li>
+                    <!-- 下拉用不到 
+
+<li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+-->
+                    <!-- 搜尋    
+            
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container-fluid bg-info">
+        <div class="container py-4">
+            <div class="row">
+
+                <div class="col-12 py-1 text-center text-white">
+                    <h1>茗茶全系列商品</h1>
+                    <hr>
+                </div>
+
+                <!-- 分別手機平板PC    my-3上下間隔-->
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                        <!-- Button trigger modal -->
+                        <!-- 去除框p-0 -->
+                        <button type="button" class="btn btn-primary p-0 " data-toggle="modal"
+                            data-target="#exampleModal">
+                            <img src="./img/Coffee-goods_01.jpg" class="card-img-top" alt="...">
+                        </button>
+
+
+
+                        <div class="card-body">
+                            <h5 class="card-title">手工咖啡杯</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">適合泡茶泡咖啡(贈送咖啡巴士紙玩具)</p>
+
+
+                        </div>
+
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center ">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                         <!-- Button trigger modal -->
+                        <!-- 去除框p-0 -->
+                        <button type="button" class="btn btn-primary p-0 " data-toggle="modal"
+                            data-target="#exampleModal2">
+                            <img src="./img/Coffee-goods_02.jpg" class="card-img-top" alt="...">
+                        </button>
+                        <div class="card-body">
+                            <h5 class="card-title">玫瑰 紅酒咖啡</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">一種咖啡兩種享受</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center ">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                        <img src="./img/Coffee-goods_03.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">濾泡咖啡隨身包(單包裝)</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">買咖啡送頂級純手工咖啡杯</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                        <img src="./img/Coffee-goods_04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">濾泡咖啡歲身包</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">加熱水即可沖泡飲用</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center ">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                        <img src="./img/Coffee-goods_05.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">三合一 二合一咖啡 大包裝</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">適合長期飲用，每天不同口味</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center ">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                        <img src="./img/Coffee-goods_06.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">二合一咖啡</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">迅速沖泡完成</p>
+
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center ">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                        <img src="./img/Coffee-goods_07.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">龍眼蜂蜜</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">龍眼蜜帶有濃郁香氣，於鼻息縈繞，甜香的氣味濃烈悠揚，是目前台灣大眾最普遍食用的蜜種。本品2018年的澱粉酶活性值為20.74，遠高出國家標準值</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 my-3 text-center ">
+                    <!-- 原先寬度參數可刪除 -->
+                    <div class="card">
+                        <img src="./img/Coffee-goods_08.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">東山龍眼</h5>
+                            <h4>1200元</h4>
+                            <p class="card-text">常綠大喬木，高6－10米。長橢圓形葉子互生，全緣、革質、光滑無毛，長6－10厘米，寬2-4厘米，基部傾斜。開黃白小花，有雄性與雌性兩性花，成實於初秋。其實纍纍而墜，外形圓滾，如彈丸卻略小於荔枝，皮青褐色，革質而脆，果肉味甜可吃。去皮則晶瑩剔透偏漿白，隱約可見內里紅黑色果核，極似眼珠，故以「龍眼」名之。</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">選擇</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+    <div class="container-fluid bg-secondary">
+        <div class="container">
+            <div class="row">
+                <!-- py最高5 -->
+                <div class="col-12 py-5 text-left text-white">
+                    <h1>團購</h1>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label for="buyname">購買人</label>
+                            <input type="text" class="form-control" id="buyname" placeholder="請輸入姓名">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="buytel">購買人電話</label>
+                            <input type="text" class="form-control" id="buytel" placeholder="請輸電話">
+                        </div>
+                        <div class="form-group">
+                            <label for="buyadd">購買人地址</label>
+                            <input type="text" class="form-control" id="buyadd" placeholder="請輸地址">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email寫這裡</label>
+
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="寫 email">
+
+                        </div>
+                        <div class="w-100 text-center ">
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input  " id="exampleCheck1">
+                                <label class="form-check-label  " for="exampleCheck1">同意使用條款</label>
+                            </div>
+                        </div>
+
+                    </form>
+                    <!-- 寬度100% -->
+                    <div class=" w-100 text-center ">
+                        <!-- 按鈕加大 btn-lg -->
+                        <button type="submit" class="  btn btn-warning btn-lg">我買了</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-fluid bg-success">
+            <div class="container text-white text-center" style="height:100px; font-size:30px">
+                <div class="row h-200">
+                    <div class="col-12 align-self-center">
+
+                        <!-- 置中     -->
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link text-white active" href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true"><i
+                                        class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                        網頁製作  TEA SCHOOL
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        
+
+        <!-- java -->
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <!-- jquery -->
+        <script src="./js/bootstrap.bundle.min.js"></script>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+              <!-- centered 置中.視窗加寬可到xl -->
+            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">放大</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 放大200 -->
+                        <img src="./img/Coffee-goods_01.jpg" width="100%" alt="...">
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">0000</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+          <!-- centered 置中.視窗加寬可到xl -->
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">放大</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- 放大200 -->
+                    <img src="./img/Coffee-goods_02.jpg" width="100%" alt="...">
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">0000</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
